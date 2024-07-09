@@ -7,7 +7,7 @@ form.addEventListener('submit', (e) => {
 
 	if (email.value === 'GEHU@gmail.com' && password.value === 'gehu@123') {
 		alert('Login successful');
-		window.location.href = "/Salesdetail/index2.html";
+		window.location.href = "../index2.html";
 	} else {
 		alert('Invalid email or password');
 	}
